@@ -18,8 +18,10 @@ public class search {
 		int indexFound = -1;
 		for(int i = 0; i< inputList.length; i++) {
 			
-			if(searchKey == inputList[i])
+			if(searchKey == inputList[i])｛
 				indexFound = i;
+				break;
+			｝
 		}
 		
 		return indexFound;
@@ -32,8 +34,10 @@ public class search {
 		
 		for(int i = 0; i< inputList.length; i++) {
 			
-			if(searchKey == inputList[i])
+			if(searchKey == inputList[i]){
 				indexFound = i;
+				break;
+			}
 		}
 		
 		return indexFound;
